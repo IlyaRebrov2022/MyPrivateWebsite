@@ -3,8 +3,10 @@ import s from './Header.module.css';
 
 const Header = () => {
     return (
-        <div className={s.color}>
-            Header
+        <div className={s.header}>
+            <div className={s.text}>
+                Ilya Rebrov
+            </div>
         </div>
     )
 }

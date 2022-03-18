@@ -6,10 +6,7 @@ import Footer from "./Components/Footer/Footer";
 
 const App = () => {
     return (
-        <div className="App">
-
-            Simple HTML
-
+        <div className="app-wrapper">
 
             <Header/>
 

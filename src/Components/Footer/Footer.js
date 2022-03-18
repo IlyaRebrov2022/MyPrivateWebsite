@@ -4,7 +4,7 @@ import s from './Footer.module.css'
 
 const Footer = () => {
     return (
-        <div className={s.color}>
+        <div className={s.footer}>
             Footer
         </div>
     )
