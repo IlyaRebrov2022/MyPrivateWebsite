@@ -1,13 +1,13 @@
 .header {
     grid-area: header;
-    background-color: #404EED;
+    background-color: #222;
 
 }
 
 .text {
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 3%;
+    left: 5%;
     text-align: center;
     color: #fff;
     font-size: large;

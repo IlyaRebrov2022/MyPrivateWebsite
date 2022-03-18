@@ -10,7 +10,7 @@
     "main"
     "footer";
 
-    grid-template-rows: 400px 1000px 600px;
+    grid-template-rows: 150px 1000px 100px;
     grid-template-columns: 1fr;
 
 }
