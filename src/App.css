@@ -4,7 +4,6 @@
     width: 100%;
 
 
-
     grid-template-areas:
     "header"
     "main"
@@ -12,6 +11,15 @@
 
     grid-template-rows: 150px 1000px 100px;
     grid-template-columns: 1fr;
+
+}
+
+
+.main-content{
+    grid-area: main;
+    background-color: #fff;
+
+
 
 }
 

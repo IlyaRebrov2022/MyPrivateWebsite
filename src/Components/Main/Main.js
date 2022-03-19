@@ -4,7 +4,7 @@ import s from './Main.module.css'
 
 const Main = () => {
     return (
-        <div className={s.main}>
+        <div>
             <div className={s.text}>
                 Main
             </div>

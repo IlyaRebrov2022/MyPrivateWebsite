@@ -4,7 +4,7 @@
 
 }
 
-.text {
+.textName {
     position: absolute;
     top: 3%;
     left: 5%;
@@ -13,4 +13,32 @@
     font-size: large;
     font-family: Cambria;
 
+}
+
+.sections {
+    color: white;
+}
+
+.Main{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.Caps {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.Shorts {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.Tshirts {
+    position: absolute;
+    top: 10%;
+    left: 50%;
 }
