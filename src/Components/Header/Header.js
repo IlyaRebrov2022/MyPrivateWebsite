@@ -9,27 +9,35 @@ const Header = () => {
             </div>
 
             <div className={s.sections}>
-                <a className={s.Main}>
-                    Main
-                </a>
+                <div className={s.Main}>
+                    <a href="/main">
+                        Main
+                    </a>
+                </div>
             </div>
 
             <div className={s.sections}>
-                <a className={s.Caps}>
-                    Caps
-                </a>
+                <div className={s.Caps}>
+                    <a href="/caps">
+                        Caps
+                    </a>
+                </div>
             </div>
 
             <div className={s.sections}>
-                <a className={s.Shorts}>
-                    Shorts
-                </a>
+                <div className={s.Shorts}>
+                    <a href="/shorts">
+                        Shorts
+                    </a>
+                </div>
             </div>
 
-            <div className={s.sections} >
-                <a className={s.Tshirts}>
-                    T-Shirts
-                </a>
+            <div className={s.sections}>
+                <div className={s.Tshirts}>
+                    <a href="/t-shirts">
+                        T-Shirts
+                    </a>
+                </div>
             </div>
 
         </div>
