@@ -4,7 +4,7 @@ import s from './Cap.module.css'
 
 const Cap = () => {
     return (
-        <div>
+        <div className={s.text}>
             Cap
         </div>
     )

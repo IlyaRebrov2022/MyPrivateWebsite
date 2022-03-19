@@ -2,3 +2,12 @@
     grid-area: footer;
     background-color:#222;
 }
+
+.text{
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 125%;
+    font-size: xxx-large;
+    font-family: Algerian;
+}

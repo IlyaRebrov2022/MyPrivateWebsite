@@ -10,39 +10,46 @@
     left: 5%;
     text-align: center;
     color: #fff;
+    font-size: xxx-large;
+    font-family: Algerian;
+
+}
+
+.sections a {
+    color: #7C7C7DFF;
+    text-decoration: none;
+    font-family: Algerian;
     font-size: large;
-    font-family: Cambria;
 
 }
 
-.sections {
+.sections a:hover {
+    text-decoration: underline;
     color: white;
-
-
 }
 
-.Main{
-    position: absolute;
-    top: 10%;
-    left: 20%;
-
-
-}
-
-.Caps {
+.Main {
     position: absolute;
     top: 10%;
     left: 30%;
+
 }
 
-.Shorts {
+
+.Caps {
     position: absolute;
     top: 10%;
     left: 40%;
 }
 
-.Tshirts {
+.Shorts {
     position: absolute;
     top: 10%;
     left: 50%;
+}
+
+.Tshirts {
+    position: absolute;
+    top: 10%;
+    left: 60%;
 }
