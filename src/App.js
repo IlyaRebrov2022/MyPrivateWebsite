@@ -4,18 +4,17 @@ import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
 import Cap from "./Components/Main/Wardrobe/Caps/Cap";
-import  Short from "./Components/Main/Wardrobe/Shorts/Short";
-import  Tshirt from "./Components/Main/Wardrobe/Tshirts/Tshirt";
+import Short from "./Components/Main/Wardrobe/Shorts/Short";
+import Tshirt from "./Components/Main/Wardrobe/Tshirts/Tshirt";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 const App = () => {
     return (
-        <BrowserRouter>
-            <div className="app-wrapper">
-                <Header/>
-                <Footer/>
-
-                <div className="main-content">
+        <div>
+            <BrowserRouter>
+                <div className="app-wrapper">
+                    <Header/>
+                    <Footer/>
                     <Routes>
                         <Route path="/main" element={<Main/>}/>
                         <Route path="/caps" element={<Cap/>}/>
@@ -23,9 +22,9 @@ const App = () => {
                         <Route path="/tshirts" element={<Tshirt/>}/>
                     </Routes>
                 </div>
+            </BrowserRouter>
+        </div>)
 
-            </div>
-        </BrowserRouter>)
 }
 
 export default App;

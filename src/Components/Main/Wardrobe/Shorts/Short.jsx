@@ -4,8 +4,10 @@ import s from './Short.module.css'
 
 const Short = () => {
     return (
-        <div className={s.text}>
-            Short
+        <div className={s.main}>
+            <div className={s.text}>
+                Short
+            </div>
         </div>
     )
 }
