@@ -1,4 +1,4 @@
-.text{
+.text {
 
     position: absolute;
     top: 50%;
@@ -10,3 +10,34 @@
     font-family: "Arial Black";
 
 }
+
+.white {
+    background: url(white.jpg) center;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-size: 400px;
+    top: 50%;
+    left: 15%;
+    border-radius: 7%;
+    text-align:center;
+    color: white;
+
+}
+
+
+
+
+.black {
+    background: url(black.jpg) center;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-size: 400px;
+    top: 50%;
+    right: 15%;
+    border-radius: 7%;
+
+}
+
+
