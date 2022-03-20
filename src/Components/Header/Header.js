@@ -34,7 +34,7 @@ const Header = () => {
 
             <div className={s.sections}>
                 <div className={s.Tshirts}>
-                    <a href="/t-shirts">
+                    <a href="/tshirts">
                         T-Shirts
                     </a>
                 </div>
