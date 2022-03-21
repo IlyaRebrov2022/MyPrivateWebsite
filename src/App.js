@@ -7,8 +7,11 @@ import Cap from "./Components/Main/Wardrobe/Caps/Cap";
 import Sweatshirt from "./Components/Main/Wardrobe/Sweatshirt/Sweatshirt";
 import Tshirt from "./Components/Main/Wardrobe/Tshirts/Tshirt";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import CapBeige from "./Components/Main/Wardrobe/Caps/CapBeige/CapBeige";
+import CapNavy from "./Components/Main/Wardrobe/Caps/CapNavy/CapNavy";
 
 const App = () => {
+
     return (
         <div>
             <BrowserRouter>
@@ -20,6 +23,8 @@ const App = () => {
                         <Route path="/caps" element={<Cap/>}/>
                         <Route path="/sweatshirt" element={<Sweatshirt/>}/>
                         <Route path="/tshirts" element={<Tshirt/>}/>
+                        <Route path="/beigeCAP" element={<CapBeige/>}/>
+                        <Route path="/navyCAP" element={<CapNavy/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>

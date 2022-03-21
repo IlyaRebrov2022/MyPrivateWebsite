@@ -1,0 +1,49 @@
+.main {
+    grid-area: main;
+    background-color: #F5F5F5;
+}
+
+.maintext {
+    position: absolute;
+    top: 20%;
+    right:40%;
+    text-align: center;
+    color: #333;
+    font-size: xxx-large;
+    font-family: "Arial Black";
+
+}
+
+.Navy {
+    background: url(Navy.jpg) center;
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    background-size: 720px;
+    top: 30%;
+    left: 5%;
+    border-radius: 35px;
+
+}
+.textNavy {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    color: #333;
+    font-size: large;
+    font-family: "Arial Black";
+}
+
+.cost {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color:#222;
+    top: 30%;
+    right: 30%;
+    text-align: center;
+    color: #fff;
+    font-size:35px;
+    border-radius: 25px;
+}
+

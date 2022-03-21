@@ -1,3 +1,8 @@
+.main {
+    grid-area: main;
+    background-color: #F5F5F5;
+}
+
 .text {
 
     position: absolute;
@@ -35,9 +40,26 @@
     border-radius: 35px;
 
 }
-.main{
-    grid-area: main;
-    background-color:#F5F5F5;
+
+.textBeige a {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    color: #333;
+    font-size: large;
+    font-family: "Arial Black";
+    text-decoration: none;
 }
+
+.textNavy a {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    color: #333;
+    font-size: large;
+    font-family: "Arial Black";
+    text-decoration: none;
+}
+
 
 
