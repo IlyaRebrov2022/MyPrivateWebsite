@@ -1,33 +1,29 @@
 import React from "react";
-import s from './Cap.module.css'
+import s from './Sweatshirt.module.css'
 
 
-const Cap = () => {
+const Sweatshirt = () => {
     return (
         <div className={s.main}>
             <div id="page-preloader" className="preloader"></div>
-
             <div className={s.text}>
-                Cap
+                Sweatshirt
             </div>
 
             <div>
-                <div className={s.Beige}>
+                <div className={s.MediumGrey}>
 
                 </div>
-
-                <div className={s.Navy}>
+                <div className={s.black}>
 
                 </div>
-                
+                <div className={s.AlaskanBrown}>
 
-
+                </div>
             </div>
-
         </div>
-
     )
 }
 
 
-export default Cap;
+export default Sweatshirt;

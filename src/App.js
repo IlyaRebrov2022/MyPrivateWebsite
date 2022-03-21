@@ -4,7 +4,7 @@ import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
 import Cap from "./Components/Main/Wardrobe/Caps/Cap";
-import Short from "./Components/Main/Wardrobe/Shorts/Short";
+import Sweatshirt from "./Components/Main/Wardrobe/Sweatshirt/Sweatshirt";
 import Tshirt from "./Components/Main/Wardrobe/Tshirts/Tshirt";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -18,7 +18,7 @@ const App = () => {
                     <Routes>
                         <Route path="/main" element={<Main/>}/>
                         <Route path="/caps" element={<Cap/>}/>
-                        <Route path="/shorts" element={<Short/>}/>
+                        <Route path="/sweatshirt" element={<Sweatshirt/>}/>
                         <Route path="/tshirts" element={<Tshirt/>}/>
                     </Routes>
                 </div>

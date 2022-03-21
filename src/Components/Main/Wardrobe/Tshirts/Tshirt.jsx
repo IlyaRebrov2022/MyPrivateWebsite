@@ -9,6 +9,16 @@ const Tshirt = () => {
             <div className={s.text}>
                 T-Shirts
             </div>
+
+            <div className={s.MediumGrey}>
+
+            </div>
+            <div className={s.Navy}>
+
+            </div>
+            <div className={s.IvyGreen}>
+
+            </div>
         </div>
     )
 }

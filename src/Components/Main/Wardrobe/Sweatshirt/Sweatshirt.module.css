@@ -18,8 +18,9 @@
 
 }
 
-.MediumGrey{
-    background: url(MediumGrey.jpg) center;
+
+.MediumGrey {
+    background: url(white.jpg) center;
     background-size: cover;
     position: absolute;
     width: 500px;
@@ -27,22 +28,22 @@
     top: 45%;
     left: 5%;
     border-radius: 35px;
+
 }
 
-.Navy{
-    background: url(Navy.jpg) center;
+.black {
+    background: url(black.jpg) center;
     background-size: cover;
     position: absolute;
     width: 500px;
     height: 500px;
     top: 45%;
     left: 37%;
-
     border-radius: 35px;
 }
 
-.IvyGreen{
-    background: url(IvyGreen.jpg) center;
+.AlaskanBrown{
+    background: url(brown.jpg) center;
     background-size: cover;
     position: absolute;
     width: 500px;
