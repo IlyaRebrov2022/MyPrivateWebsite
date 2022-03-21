@@ -47,3 +47,64 @@
     border-radius: 25px;
 }
 
+
+.properties1{
+    position: absolute;
+    top: 45%;
+    right: 28%;
+    text-align: center;
+    color: #222;
+    font-size:20px;
+    border-radius: 25px;
+}
+.properties2{
+    position: absolute;
+    top: 50%;
+    right: 386px;
+    text-align: center;
+    color: #222;
+    font-size:20px;
+    border-radius: 25px;
+}
+.properties3{
+    position: absolute;
+    top: 55%;
+    right: 655px;
+    text-align: center;
+    color: #222;
+    font-size:20px;
+    border-radius: 25px;
+}.properties4{
+     position: absolute;
+     top: 60%;
+     right: 135px;
+     text-align: center;
+     color: #222;
+     font-size:20px;
+     border-radius: 25px;
+ }
+
+.buy{
+    display: grid;
+    align-items: center;
+    text-align:center;
+    width: 250px;
+    height: 50px;
+    background-color: #222;
+    color: white;
+    position: absolute;
+    top: 80%;
+    right:25%;
+    font-size:20px;
+    border-radius: 25px;
+    cursor: pointer;
+    -webkit-transition: 0.5s 0.1s ease;
+    opacity: .5;
+}
+.buy:hover{
+    opacity: 1;
+    border-radius: 0;
+    background-color: #222;
+}
+
+
