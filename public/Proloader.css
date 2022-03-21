@@ -1,0 +1,25 @@
+
+.preloader{
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 100%;
+    height:905px;
+    background: black;
+    z-index: 10;
+    transition: 1s all;
+    opacity: 1;
+    visibility: visible;
+    background: #222;
+    /*background: linear-gradient(45deg,#F9C3BCFF,#CCB8F5FF);*/
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+
+.done{
+    opacity: 0;
+    visibility: hidden;
+}
