@@ -23,8 +23,8 @@ const App = () => {
                         <Route path="/caps" element={<Cap/>}/>
                         <Route path="/sweatshirt" element={<Sweatshirt/>}/>
                         <Route path="/tshirts" element={<Tshirt/>}/>
-                        <Route path="/beigeCAP" element={<CapBeige/>}/>
-                        <Route path="/navyCAP" element={<CapNavy/>}/>
+                        <Route path="/DarkMinium" element={<CapBeige/>}/>
+                        <Route path="/Taupe" element={<CapNavy/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>

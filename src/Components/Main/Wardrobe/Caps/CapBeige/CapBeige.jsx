@@ -6,11 +6,14 @@ const CapBeige = () => {
         <div className={s.main}>
             <div id="page-preloader" className="preloader"></div>
             <div className={s.maintext}>
-                Beige
+                Dark Minium
             </div>
 
             <div>
-                <div className={s.Beige}></div>
+                <div className={s.DarkMinium1}></div>
+            </div>
+            <div>
+                <div className={s.DarkMinium2}></div>
             </div>
 
             <div className={s.cost}>
@@ -34,8 +37,18 @@ const CapBeige = () => {
             <a className={s.buy}>
                 ADD TO CART →
             </a>
+            <div>
+                <div className={s.DarkMinium}>
+                    <a href='/DarkMinium'>
 
+                    </a>
+                </div>
+                <div className={s.Taupe}>
+                    <a href='/Taupe'>
 
+                    </a>
+                </div>
+            </div>
 
         </div>
     )
