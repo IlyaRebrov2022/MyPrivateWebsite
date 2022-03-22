@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className={s.header}>
             <div className={s.textName}>
-                Ilya Rebrov
+                Woolrich
             </div>
 
             <div className={s.sections}>
