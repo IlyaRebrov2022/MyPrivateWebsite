@@ -8,7 +8,7 @@ const Cap = () => {
                 <div id="page-preloader" className="preloader"></div>
 
                 <div className={s.text}>
-                    Cap
+                    Hats
                 </div>
 
                 <div>
