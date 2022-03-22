@@ -9,6 +9,8 @@ import Tshirt from "./Components/Main/Wardrobe/Tshirts/Tshirt";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import CapBeige from "./Components/Main/Wardrobe/Caps/CapBeige/CapBeige";
 import CapNavy from "./Components/Main/Wardrobe/Caps/CapNavy/CapNavy";
+import DesertCamou from "./Components/Main/Wardrobe/Caps/DesertCamou/DesertCamou";
+import OrangeCamou from "./Components/Main/Wardrobe/Caps/OrangeCamou/OrangeCamou";
 
 const App = () => {
 
@@ -25,6 +27,8 @@ const App = () => {
                         <Route path="/tshirts" element={<Tshirt/>}/>
                         <Route path="/DarkMinium" element={<CapBeige/>}/>
                         <Route path="/Taupe" element={<CapNavy/>}/>
+                        <Route path="/DesertCamou" element={<DesertCamou/>}/>
+                        <Route path="/OrangeCamou" element={<OrangeCamou/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>

@@ -20,10 +20,10 @@ const Cap = () => {
                         </div>
                     </div>
 
-                    <div className={s.Navy}>
-                        <div className={s.textNavy}>
-                            <a href="">
-                                Navy
+                    <div className={s.DesertCamou}>
+                        <div className={s.textDesertCamou}>
+                            <a href="/DesertCamou">
+                                Buy
                             </a>
                         </div>
                     </div>
