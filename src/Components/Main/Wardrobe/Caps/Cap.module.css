@@ -21,44 +21,52 @@
     position: absolute;
     width: 500px;
     height: 500px;
-    background-size: 500px;
-    top: 45%;
+    background-size: 600px;
+    top: 43%;
     left: 15%;
-    border-radius: 35px;
+    -webkit-transition: 0.2s 0.1s ease;
 
 }
-
-.textDarkMinium a {
+.DarkMinium:hover{
+    background: url(DarkMinium1.jpg) center;
     position: absolute;
-    top: 10%;
-    left: 8%;
-    color: #333;
-    font-size: 25px;
-    font-family: "Arial Black";
-    text-decoration: none;
+    width: 550px;
+    height: 550px;
+    top: 40%;
+    left: 14%;
+    border-radius: 35px;
+    background-size: 650px;
+
 }
+
 
 .DesertCamou {
     background: url(DesertCamou1.jpg) center;
     position: absolute;
     width: 500px;
     height: 500px;
-    background-size: 500px;
-    top: 45%;
+    background-size: 600px;
+    top: 43%;
     right: 15%;
-    border-radius: 35px;
-
+    -webkit-transition: 0.2s 0.1s ease;
 }
 
-.textDesertCamou a {
+.DesertCamou:hover {
+    background: url(DesertCamou1.jpg) center;
     position: absolute;
-    top: 10%;
-    left: 8%;
-    color: #333;
-    font-size: 25px;
-    font-family: "Arial Black";
-    text-decoration: none;
+    width: 550px;
+    height: 550px;
+    top: 40%;
+    right: 14%;
+    border-radius: 35px;
+    background-size: 650px;
+
 }
+
+
+
+
+
 
 
 

@@ -19,7 +19,7 @@ const Header = () => {
             <div className={s.sections}>
                 <div className={s.Caps}>
                     <a href="/caps">
-                        Caps
+                        Hats
                     </a>
                 </div>
             </div>

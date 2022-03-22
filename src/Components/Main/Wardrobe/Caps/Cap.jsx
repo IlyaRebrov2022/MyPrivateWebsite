@@ -12,21 +12,13 @@ const Cap = () => {
                 </div>
 
                 <div>
-                    <div className={s.DarkMinium}>
-                        <div className={s.textDarkMinium}>
-                            <a href="/DarkMinium">
-                                Buy
-                            </a>
-                        </div>
-                    </div>
+                    <a href="/DarkMinium" className={s.DarkMinium}>
 
-                    <div className={s.DesertCamou}>
-                        <div className={s.textDesertCamou}>
-                            <a href="/DesertCamou">
-                                Buy
-                            </a>
-                        </div>
-                    </div>
+                    </a>
+
+                    <a href="/DesertCamou" className={s.DesertCamou}>
+
+                    </a>
 
                 </div>
 

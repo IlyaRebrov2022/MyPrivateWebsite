@@ -11,15 +11,10 @@ const Sweatshirt = () => {
             </div>
 
             <div>
-                <div className={s.MediumGrey}>
+                <a href="" className={s.MediumGrey}>
 
-                </div>
-                <div className={s.black}>
+                </a>
 
-                </div>
-                <div className={s.AlaskanBrown}>
-
-                </div>
             </div>
         </div>
     )
