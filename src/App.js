@@ -13,6 +13,8 @@ import DesertCamou from "./Components/Main/Wardrobe/Caps/DesertCamou/DesertCamou
 import OrangeCamou from "./Components/Main/Wardrobe/Caps/OrangeCamou/OrangeCamou";
 import AlaskanBrown from "./Components/Main/Wardrobe/Sweatshirt/AlaskanBrown/AlaskanBrown";
 import BlackSweatshirt from "./Components/Main/Wardrobe/Sweatshirt/Black/BlackSweatshirt";
+import MediumGrey from "./Components/Main/Wardrobe/Sweatshirt/MediumGrey/MediumGrey";
+import MeltonBlue from "./Components/Main/Wardrobe/Sweatshirt/MeltonBlue/MeltonBlue";
 
 
 const App = () => {
@@ -35,6 +37,8 @@ const App = () => {
                         <Route path="/OrangeCamouHat" element={<OrangeCamou/>}/>
                         <Route path="/AlaskanBrownSweatshirt" element={<AlaskanBrown/>}/>
                         <Route path="/BlackSweatshirt" element={<BlackSweatshirt/>}/>
+                        <Route path="/MediumGreySweatshirt" element={<MediumGrey/>}/>
+                        <Route path="/MeltonBlueSweatshirt" element={<MeltonBlue/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>

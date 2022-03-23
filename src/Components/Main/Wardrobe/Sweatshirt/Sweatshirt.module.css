@@ -40,5 +40,26 @@
     border-radius: 35px;
     background-size: 550px;
 }
+.MediumGrey {
+    background: url(MediumGrey.jpg) center;
+    background-size: 500px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 43%;
+    right: 15%;
+    -webkit-transition: 0.2s 0.1s ease;
+
+}
+.MediumGrey:hover{
+    background: url(MediumGrey.jpg) center;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 40%;
+    right: 14%;
+    border-radius: 35px;
+    background-size: 550px;
+}
 
 

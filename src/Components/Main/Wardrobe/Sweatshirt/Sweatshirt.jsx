@@ -16,6 +16,12 @@ const Sweatshirt = () => {
                 </a>
 
             </div>
+            <div>
+                <a href="/MediumGreySweatshirt" className={s.MediumGrey}>
+
+                </a>
+
+            </div>
         </div>
     )
 }

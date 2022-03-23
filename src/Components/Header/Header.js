@@ -27,7 +27,7 @@ const Header = () => {
             <div className={s.sections}>
                 <div className={s.Sweatshirt}>
                     <a href="/sweatshirt">
-                        Sweatshirt
+                        Sweatshirts
                     </a>
                 </div>
             </div>

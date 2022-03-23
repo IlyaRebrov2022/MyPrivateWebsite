@@ -1,0 +1,130 @@
+.main {
+    grid-area: main;
+    background-color: #F5F5F5;
+}
+
+.maintext {
+    position: absolute;
+    top: 20%;
+    right:20%;
+    text-align: center;
+    color: #333;
+    font-size: xxx-large;
+    font-family: "Arial Black";
+
+}
+
+.MeltonBlue1 {
+    background: url(MeltonBlue1.jpg) center;
+    position: absolute;
+    width: 520px;
+    height: 600px;
+    background-size: 650px;
+    top: 30%;
+    left: 1%;
+    border-radius: 35px;
+
+}
+.MeltonBlue2 {
+    background: url(MeltonBlue2.jpg) center;
+    position: absolute;
+    width: 520px;
+    height: 600px;
+    background-size: 520px;
+    top: 30%;
+    left: 30%;
+    border-radius: 35px;
+
+}
+
+.cost {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color:#222;
+    top: 30%;
+    right: 20%;
+    text-align: center;
+    color: #fff;
+    font-size:35px;
+    border-radius: 25px;
+}
+
+.properties1{
+    position: absolute;
+    top: 45%;
+    right:428px;
+    text-align: center;
+    color: #222;
+    font-size:20px;
+    border-radius: 25px;
+}
+.properties2{
+    position: absolute;
+    top: 50%;
+    right: 280px;
+    text-align: center;
+    color: #222;
+    font-size:20px;
+    border-radius: 25px;
+}
+.properties3{
+    position: absolute;
+    top: 60%;
+    right: 550px;
+    text-align: center;
+    color: #222;
+    font-size:20px;
+    border-radius: 25px;
+}.properties4{
+     position: absolute;
+     top: 55%;
+     right: 30px;
+     text-align: center;
+     color: #222;
+     font-size:20px;
+     border-radius: 25px;
+ }
+
+.buy{
+    display: grid;
+    align-items: center;
+    text-align:center;
+    width: 250px;
+    height: 50px;
+    background-color: #222;
+    color: white;
+    position: absolute;
+    top: 70%;
+    right:15%;
+    font-size:20px;
+    border-radius: 25px;
+    cursor: pointer;
+    -webkit-transition: 0.5s 0.1s ease;
+    opacity: .5;
+}
+.buy:hover{
+    opacity: 1;
+    border-radius: 0;
+    background-color: #222;
+}
+
+.MediumGrey a{
+    position: absolute;
+    top: 37%;
+    right: 490px;
+    width: 40px;
+    height: 40px;
+    background-color:#C9CACC;
+    border-radius: 20px;
+}
+
+.MeltonBlue a{
+    position: absolute;
+    top: 37%;
+    right: 430px;
+    width: 46px;
+    height: 46px;
+    background-color: #333;
+    border-radius: 23px;
+}
