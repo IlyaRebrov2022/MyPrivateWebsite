@@ -39,12 +39,12 @@ const CapBeige = () => {
             </a>
             <div>
                 <div className={s.DarkMinium}>
-                    <a href='/DarkMinium'>
+                    <a href='/DarkMiniumHat'>
 
                     </a>
                 </div>
                 <div className={s.Taupe}>
-                    <a href='/Taupe'>
+                    <a href='/TaupeHat'>
 
                     </a>
                 </div>

@@ -11,11 +11,15 @@ import CapBeige from "./Components/Main/Wardrobe/Caps/CapBeige/CapBeige";
 import CapNavy from "./Components/Main/Wardrobe/Caps/CapNavy/CapNavy";
 import DesertCamou from "./Components/Main/Wardrobe/Caps/DesertCamou/DesertCamou";
 import OrangeCamou from "./Components/Main/Wardrobe/Caps/OrangeCamou/OrangeCamou";
+import AlaskanBrown from "./Components/Main/Wardrobe/Sweatshirt/AlaskanBrown/AlaskanBrown";
+import BlackSweatshirt from "./Components/Main/Wardrobe/Sweatshirt/Black/BlackSweatshirt";
+
 
 const App = () => {
 
     return (
         <div>
+
             <BrowserRouter>
                 <div className="app-wrapper">
                     <Header/>
@@ -25,10 +29,12 @@ const App = () => {
                         <Route path="/caps" element={<Cap/>}/>
                         <Route path="/sweatshirt" element={<Sweatshirt/>}/>
                         <Route path="/tshirts" element={<Tshirt/>}/>
-                        <Route path="/DarkMinium" element={<CapBeige/>}/>
-                        <Route path="/Taupe" element={<CapNavy/>}/>
-                        <Route path="/DesertCamou" element={<DesertCamou/>}/>
-                        <Route path="/OrangeCamou" element={<OrangeCamou/>}/>
+                        <Route path="/DarkMiniumHat" element={<CapBeige/>}/>
+                        <Route path="/TaupeHat" element={<CapNavy/>}/>
+                        <Route path="/DesertCamouHat" element={<DesertCamou/>}/>
+                        <Route path="/OrangeCamouHat" element={<OrangeCamou/>}/>
+                        <Route path="/AlaskanBrownSweatshirt" element={<AlaskanBrown/>}/>
+                        <Route path="/BlackSweatshirt" element={<BlackSweatshirt/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>

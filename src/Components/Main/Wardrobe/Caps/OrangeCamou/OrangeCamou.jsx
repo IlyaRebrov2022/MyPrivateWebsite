@@ -39,12 +39,12 @@ const DesertCamou = () => {
             </a>
             <div>
                 <div className={s.DesertCamou}>
-                    <a href='/DesertCamou'>
+                    <a href='/DesertCamouHat'>
 
                     </a>
                 </div>
                 <div className={s.OrangeCamou}>
-                    <a href='/OrangeCamou'>
+                    <a href='/OrangeCamouHat'>
 
                     </a>
                 </div>

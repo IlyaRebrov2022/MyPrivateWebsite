@@ -11,7 +11,7 @@ const Sweatshirt = () => {
             </div>
 
             <div>
-                <a href="" className={s.MediumGrey}>
+                <a href="/AlaskanBrownSweatshirt" className={s.AlaskanBrown}>
 
                 </a>
 

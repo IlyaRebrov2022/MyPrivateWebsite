@@ -1,23 +1,23 @@
 import React from "react";
-import s from './CapNavy.module.css'
+import s from './BlackSweatshirt.module.css'
 
-const CapNavy = () => {
+const BlackSweatshirt = () => {
     return (
         <div className={s.main}>
             <div id="page-preloader" className="preloader"></div>
             <div className={s.maintext}>
-                Taupe
+                Black
             </div>
 
             <div>
-                <div className={s.DarkMinium1}></div>
+                <div className={s.Black1}></div>
             </div>
             <div>
-                <div className={s.DarkMinium2}></div>
+                <div className={s.Black2}></div>
             </div>
 
             <div className={s.cost}>
-                50$
+                100$
             </div>
 
 
@@ -38,13 +38,13 @@ const CapNavy = () => {
                 ADD TO CART →
             </a>
             <div>
-                <div className={s.DarkMinium}>
-                    <a href='/DarkMiniumHat'>
+                <div className={s.AlaskanBrown}>
+                    <a href='/AlaskanBrownSweatshirt'>
 
                     </a>
                 </div>
-                <div className={s.Taupe}>
-                    <a href='/TaupeHat'>
+                <div className={s.Black}>
+                    <a href='/BlackSweatshirt'>
 
                     </a>
                 </div>
@@ -55,4 +55,4 @@ const CapNavy = () => {
 }
 
 
-export default CapNavy;
+export default BlackSweatshirt;

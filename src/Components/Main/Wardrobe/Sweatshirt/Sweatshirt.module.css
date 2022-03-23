@@ -19,8 +19,8 @@
 }
 
 
-.MediumGrey {
-    background: url(MediumGrey.jpg) center;
+.AlaskanBrown {
+    background: url(AlaskanBrown.jpg) center;
     background-size: 500px;
     position: absolute;
     width: 500px;
@@ -30,8 +30,8 @@
     -webkit-transition: 0.2s 0.1s ease;
 
 }
-.MediumGrey:hover{
-    background: url(MediumGrey.jpg) center;
+.AlaskanBrown:hover{
+    background: url(AlaskanBrown.jpg) center;
     position: absolute;
     width: 550px;
     height: 550px;
