@@ -7,17 +7,18 @@ const Tshirt = () => {
         <div className={s.main}>
             <div id="page-preloader" className="preloader"></div>
             <div className={s.text}>
-                T-Shirts
+                Tshirts
             </div>
 
-            <div className={s.MediumGrey}>
+            <div>
+                <a href="/MediumGreyTshirt" className={s.MediumGrey}>
 
+                </a>
             </div>
-            <div className={s.Navy}>
+            <div>
+                <a href="/BlackTshirt" className={s.Black}>
 
-            </div>
-            <div className={s.IvyGreen}>
-
+                </a>
             </div>
         </div>
     )

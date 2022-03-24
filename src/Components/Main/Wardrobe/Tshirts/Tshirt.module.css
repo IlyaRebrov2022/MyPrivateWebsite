@@ -3,8 +3,6 @@
     background-color:#F5F5F5;
 }
 
-
-
 .text {
 
     position: absolute;
@@ -15,39 +13,50 @@
     color: #333;
     font-size: xxx-large;
     font-family: "Arial Black";
-
 }
 
-.MediumGrey{
+
+.MediumGrey {
     background: url(MediumGrey.jpg) center;
-    background-size: cover;
+    background-size: 500px;
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 45%;
-    left: 5%;
-    border-radius: 35px;
-}
+    top: 43%;
+    left: 15%;
+    -webkit-transition: 0.2s 0.1s ease;
 
-.Navy{
-    background: url(Navy.jpg) center;
-    background-size: cover;
+}
+.MediumGrey:hover{
+    background: url(MediumGrey.jpg) center;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 40%;
+    left: 14%;
+    border-radius: 35px;
+    background-size: 550px;
+}
+.Black {
+    background: url(Black.jpg) center;
+    background-size: 500px;
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 45%;
-    left: 37%;
+    top: 43%;
+    right: 15%;
+    -webkit-transition: 0.2s 0.1s ease;
 
-    border-radius: 35px;
 }
-
-.IvyGreen{
-    background: url(IvyGreen.jpg) center;
-    background-size: cover;
+.Black:hover{
+    background: url(Black.jpg) center;
     position: absolute;
-    width: 500px;
-    height: 500px;
-    top: 45%;
-    right: 5%;
+    width: 550px;
+    height: 550px;
+    top: 40%;
+    right: 14%;
     border-radius: 35px;
+    background-size: 550px;
 }
+
+

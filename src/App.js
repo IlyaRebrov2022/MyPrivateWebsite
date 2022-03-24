@@ -15,6 +15,13 @@ import AlaskanBrown from "./Components/Main/Wardrobe/Sweatshirt/AlaskanBrown/Ala
 import BlackSweatshirt from "./Components/Main/Wardrobe/Sweatshirt/Black/BlackSweatshirt";
 import MediumGrey from "./Components/Main/Wardrobe/Sweatshirt/MediumGrey/MediumGrey";
 import MeltonBlue from "./Components/Main/Wardrobe/Sweatshirt/MeltonBlue/MeltonBlue";
+import MediumGreyTshirt from "./Components/Main/Wardrobe/Tshirts/MediumGrey/MediumGreyTshirt";
+import IvyGreenTshirt from "./Components/Main/Wardrobe/Tshirts/IvyGreen/IvyGreenTshirt";
+import BlackTshirt from "./Components/Main/Wardrobe/Tshirts/Black/BlackTshirt";
+import BrightWhiteTshirt from "./Components/Main/Wardrobe/Tshirts/BrightWhite/BrightWhiteTshirt";
+
+
+
 
 
 const App = () => {
@@ -39,6 +46,10 @@ const App = () => {
                         <Route path="/BlackSweatshirt" element={<BlackSweatshirt/>}/>
                         <Route path="/MediumGreySweatshirt" element={<MediumGrey/>}/>
                         <Route path="/MeltonBlueSweatshirt" element={<MeltonBlue/>}/>
+                        <Route path="/MediumGreyTshirt" element={<MediumGreyTshirt/>}/>
+                        <Route path="/IvyGreenTshirt" element={<IvyGreenTshirt/>}/>
+                        <Route path="/BlackTshirt" element={<BlackTshirt/>}/>
+                        <Route path="/BrightWhiteTshirt" element={<BrightWhiteTshirt/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>
