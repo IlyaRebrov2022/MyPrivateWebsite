@@ -39,6 +39,13 @@ const Header = () => {
                     </a>
                 </div>
             </div>
+            <div className={s.sections}>
+                <div className={s.YourOrder}>
+                    <a href="/yourOrder">
+                        Your Order
+                    </a>
+                </div>
+            </div>
 
         </div>
     )

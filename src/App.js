@@ -19,9 +19,7 @@ import MediumGreyTshirt from "./Components/Main/Wardrobe/Tshirts/MediumGrey/Medi
 import IvyGreenTshirt from "./Components/Main/Wardrobe/Tshirts/IvyGreen/IvyGreenTshirt";
 import BlackTshirt from "./Components/Main/Wardrobe/Tshirts/Black/BlackTshirt";
 import BrightWhiteTshirt from "./Components/Main/Wardrobe/Tshirts/BrightWhite/BrightWhiteTshirt";
-
-
-
+import YourOrder from "./Components/Main/YourOrder/YourOrder";
 
 
 const App = () => {
@@ -50,6 +48,7 @@ const App = () => {
                         <Route path="/IvyGreenTshirt" element={<IvyGreenTshirt/>}/>
                         <Route path="/BlackTshirt" element={<BlackTshirt/>}/>
                         <Route path="/BrightWhiteTshirt" element={<BrightWhiteTshirt/>}/>
+                        <Route path="/yourOrder" element={<YourOrder/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>

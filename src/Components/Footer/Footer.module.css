@@ -1,13 +1,87 @@
-.footer{
+.footer {
     grid-area: footer;
-    background-color:#222;
+    background-color: #222;
 }
 
-.text{
+.Maintext {
     color: white;
     position: absolute;
-    left: 10%;
-    top: 125%;
+    left: 4%;
+    top: 130%;
     font-size: xxx-large;
-    font-family: Algerian;
+    font-family: Cambria;
+}
+
+.UnderText {
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 138%;
+    font-size: large;
+    font-family: Cambria;
+}
+
+.instagram {
+    position: absolute;
+    top: 1225px;
+    left:330px;
+    width: 55px;
+    height: 55px;
+    background: url(Instagram.png) center;
+    background-size: cover;
+    border-radius: 30px;
+    -webkit-transition: 0.2s 0.1s ease;
+}
+
+.instagram:hover {
+    filter: brightness(50%);
+
+}
+
+.facebook {
+    position: absolute;
+    top: 1230px;
+    left: 390px;
+    width: 45px;
+    height: 45px;
+    background: url(Facebook.png) center;
+    background-size: cover;
+    border-radius: 30px;
+    -webkit-transition: 0.2s 0.1s ease;
+}
+
+.facebook:hover {
+filter: brightness(50%);
+}
+
+.mastercard{
+    position:absolute;
+    top: 1150px;
+    right: 1%;
+    width: 240px;
+    height: 200px;
+    background-size:cover;
+    background: url(mastercard.png)center ;
+}
+.visa{
+    position:absolute;
+    top: 1200px;
+    right: 15%;
+    width: 316px;
+    height: 102px;
+    background-size:cover;
+    background: url(visa.png)center ;
+}
+
+.Textemail{
+    position: absolute;
+    color: #C9CACC;
+    top: 1200px;
+    right: 35%;
+}
+.email{
+    position: absolute;
+    color: white;
+    top: 1225px;
+    right: 35%;
 }

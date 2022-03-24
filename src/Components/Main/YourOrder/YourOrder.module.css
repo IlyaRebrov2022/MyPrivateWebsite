@@ -1,0 +1,118 @@
+.main {
+    grid-area: main;
+    background-color: #F5F5F5;
+}
+
+.text {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+    color: #333;
+    font-size: xxx-large;
+    font-family: "Arial Black";
+}
+.OrderNumber {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+    color: #333;
+    font-size: large;
+    font-family: "Arial Black";
+}
+
+.OrderPassword {
+    position: absolute;
+    top: 428px;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+    color: #333;
+    font-size: large;
+    font-family: "Arial Black";
+}
+
+
+.searchNumber input {
+    border-color: #222;
+    background-color:#222;
+    position: absolute;
+    top: 375px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    border-radius:0;
+    font-size: 30px;
+    font-family: "Arial Black";
+    outline: none;
+    color: white;
+    -webkit-transition: 0.5s 0.1s ease;
+    opacity: .1;
+
+
+}
+.searchNumber input:focus {
+    background-color: #222;
+    border-radius: 30px;
+
+}
+.searchNumber input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+
+.searchPassword input {
+    border-color: #333;
+    background-color: #222;
+    position: absolute;
+    top: 475px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    font-family: "Arial Black";
+    outline: none;
+    color: white;
+    -webkit-transition: 0.5s 0.1s ease;
+    opacity: .1;
+
+}
+.searchPassword input:focus {
+    background-color: #222;
+    border-radius: 30px;
+}
+
+
+
+.buy{
+    display: grid;
+    align-items: center;
+    text-align:center;
+    width: 250px;
+    height: 50px;
+    background-color: #222;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size:20px;
+    border-radius: 0;
+    cursor: pointer;
+    -webkit-transition: 0.5s 0.1s ease;
+    opacity: .1;
+}
+.buy:hover{
+    opacity:5;
+    border-radius: 25px;
+    background-color: #222;
+}
